@@ -12,6 +12,9 @@
 .tit{
     font-family: titulo;
 }
+.x:hover{
+    color: red;
+}
 header{ 
 
     background-color: rgb(113, 113, 241);
@@ -72,7 +75,7 @@ img{
 }
 .tarjeta-title{
     background-color: rgb(16, 172, 219);
-    padding: 5px;
+    padding: 10px;
 }
 .tarjeta-text{
     padding: 10px;
