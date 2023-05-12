@@ -1,0 +1,92 @@
+@font-face {
+    font-family: titulo;
+    src: url("merrycle/Merrycle\ Font\ by\ Jasm\ 7NTypes.otf");
+}
+@font-face{
+    font-family: cualquiernombre;
+    src: url("fonts/Amarillo.otf")
+}
+
+*{
+}
+.am{
+    background-color: white;
+}
+.tit{
+    font-family: titulo;
+}
+header{ 
+
+    background-color: rgb(113, 113, 241);
+    box-shadow: 0 0 10px black;
+}
+header nav ul{
+    list-style: none;
+    width: 40px;
+    display: inline-flex;
+    padding: 10px;
+}
+header nav ul li{
+
+    margin: 10px;
+}
+.presentacion{
+    display: flex;
+    height: 440px;
+    top: 20px;
+    margin-top: 120px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.img-thumbnail{
+    width: 100%;
+    z-index: 1;
+    border-radius: 100%;
+}
+
+.barraz{
+    font-family: titulo;
+    position: relative;
+    top: 274px;
+    z-index: 0;
+    height: 40px;
+    background-color: blue;
+}
+.barrabla{
+    height: 30px;
+    background-color: white;
+}
+.rounded{
+    position: relative;
+    width: 300px;
+    z-index: 0;
+    align-content: center;
+}
+.barrazoscu{
+    height: 30px;
+    background-color: aqua;
+}
+h5{
+    text-align: center;
+}
+img{
+    min-height: 400px;
+}
+.tarjeta-title{
+    background-color: rgb(247, 198, 38);
+    padding: 5px;
+}
+.tarjeta-text{
+    padding: 10px;
+    text-align: justify;
+}
+footer{
+    text-align: center;
+}
+
+.container ul{
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
