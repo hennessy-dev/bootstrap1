@@ -6,9 +6,6 @@
     font-family: cualquiernombre;
     src: url("fonts/Amarillo.otf")
 }
-
-*{
-}
 .am{
     background-color: white;
 }
@@ -74,7 +71,7 @@ img{
     min-height: 400px;
 }
 .tarjeta-title{
-    background-color: rgb(247, 198, 38);
+    background-color: rgb(16, 172, 219);
     padding: 5px;
 }
 .tarjeta-text{
@@ -89,4 +86,8 @@ footer{
     display: flex;
     align-self: center;
     align-items: center;
+}
+
+.tarjeta{
+    padding: 10px;
 }
